@@ -4,9 +4,9 @@
 
 ## Prérequis
 
--SDL2
--SDL2_image
--SDL2_mixer
+- **SDL2**
+- **SDL2_image**
+- **SDL2_mixer**
 
 ## Commandes
 
@@ -21,14 +21,14 @@ make
 
 ### Menu
 
-Up : selectionne le dessus
-Down: selectionne le dessous
-Enter: pour valider votre choix
+- **Up** : selectionne le dessus
+- **Down**: selectionne le dessous
+- **Enter**: pour valider votre choix
 
 ### Le Jeu
 
--Up : haut
--Down: bas
--Right: Droite
--Left: Gauche
--Esc: Revenir au menu
+- **Up** : haut
+- **Down**: bas
+- **Right**: Droite
+- **Left**: Gauche
+- **Esc**: Revenir au menu
