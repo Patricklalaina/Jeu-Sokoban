@@ -1,4 +1,4 @@
-<p align="center"><img src="preview" alt=""></p>
+<p align="center"><img src="Preview.png" alt=""></p>
 
 # Jeu Sokoban
 
@@ -10,12 +10,12 @@
 
 ## Commandes
 
-'''bash
+```bash
 make
-'''
-'''bash
+```
+```bash
 ./sokoban
-'''
+```
 
 ## Commandes clavier
 
