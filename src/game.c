@@ -88,7 +88,7 @@ void	show_menu(t_data *game)
 	t_button	new_game;
 	t_button	credit;
 	t_button	exitbtn;
-	Mix_Chunk /**chunk	Mix_Music		*/*music_menu;
+	Mix_Chunk *music_menu;
 	int			i;
 
 	run = 1;

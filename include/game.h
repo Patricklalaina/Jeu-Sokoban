@@ -4,6 +4,7 @@
 # include <SDL2/SDL.h>
 # include <SDL2/SDL_image.h>
 # include <SDL2/SDL_mixer.h>
+# include <SDL2/SDL_ttf.h>
 # include <stdio.h>
 # include <stdio.h>
 # include <unistd.h>
@@ -15,6 +16,9 @@
 # define EXIT 3
 # define NORMAL 0
 # define SELECTED 1
+
+enum {VIDE, WALL, COLLECT, CAISSE, PLAYER, PLAYER_CO, CAISSE_CO};
+enum {UP, DOWN, RIGHT, LEFT};
 
 typedef struct s_button
 {
@@ -68,7 +72,8 @@ void	wait_event_credit(t_data *game, int *run);
 /*********************
  * EVENT HANDLE GAME
  * *******************/
-void	wait_event_game(t_data *game, int *run, int map[24][28], int *mark);
+void	wait_event_game(t_data *game, int *run, int map[24][28]);
 void	init_info_credit(t_data *game, t_img *credit, char *path, SDL_Rect pos);
+void	player_move(int map[24][28], int x, int y, int direction);
 
 #endif //GAME_H
