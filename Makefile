@@ -2,7 +2,7 @@ NAME = sokoban
 
 SRC = $(wildcard ./src/*.c)
 
-CFLAGS = #-Wall -Werror -Wextra -g
+CFLAGS = -Wall -Werror -Wextra -g
 
 OBJ = $(SRC:.c=.o)
 
